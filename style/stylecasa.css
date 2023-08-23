@@ -1,0 +1,140 @@
+*{
+    margin: 0;    
+}
+body{
+    height: 100vh;
+    background-image: url("../img/casa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#title{
+    margin:20vh 0 0 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+    width: 30vw;
+    gap: 3vh;
+}
+#title > h1{
+    font-family: "font-titolo";
+    font-size: 9vh;
+    color: black;
+    font-weight: bolder;
+}
+.form_group{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    width: 100%;
+}
+
+
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 15vw;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.4s;
+}
+
+
+/* CSS */
+.button-main {
+    align-items: center;
+    appearance: none;
+    
+    background-color: initial;
+    background-image: none;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    flex-direction: row;
+    flex-shrink: 0;  
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0;
+    min-height: 64px;
+    outline: none;
+    overflow: visible;
+    padding: 19px 26px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    user-select: none;
+   
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: auto;
+    word-break: keep-all;
+    z-index: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-main {
+      padding: 19px 52px;
+    }
+  }
+  
+  .button-main:before,
+  .button-main:after {
+    border-radius: 80px;
+  }
+  
+  .button-main:before {
+    background-image: linear-gradient(92.83deg, #11001f 0, #6002b9 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+  }
+  
+  .button-main:after {
+    background-color: initial;
+    background-image: linear-gradient(#0a0056 0, #000000 100%);
+    bottom: 4px;
+    content: "";
+    display: block;
+    left: 4px;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    transition: all 0.2s ease-out;
+    z-index: -1;
+  }  
+
+  
+  .button-main:hover:not(:disabled):after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition-timing-function: ease-in;
+    opacity: 0;
+  } 
+ 
+  
+
+
+

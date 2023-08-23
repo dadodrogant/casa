@@ -1,0 +1,197 @@
+*{
+    margin: 0;    
+}
+body{
+    height: 100vh;
+    background-image: url(../img/primo\ piano.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#proplabel{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3125rem;
+    font-weight: 600;
+    letter-spacing: 0.045rem;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #EF2D56;
+    border-radius: 0.375rem;
+   -webkit-border-radius: 0.375rem;
+    -moz-border-radius: 0.375rem;
+    padding: 0.375rem 1.5625rem;
+    border-style: none;
+    border-width: 0.5rem;
+    border-color: #EF2D56;   
+    -box-shadow: inset 4px 4px 8px -4px rgba(0,0,0,0);   
+    position: absolute;
+    top: 45vh;
+    left: 3vw;   
+}
+#bagnodiv{
+    position: absolute;
+    width: 12em;
+    height: 23em;    
+    top: 1px;
+    left: 45vw;
+}
+#cameraunodiv{
+    position: absolute;
+    width: 17em;
+    height: 16em;    
+    top: 6.5em;
+    left: 28vw;
+}
+#cameraduediv{
+    position: absolute;
+    width: 20em;
+    height: 20em;    
+    top: 23em;
+    left: 53vw;   
+}
+#bagnobtn{
+    position: absolute;
+    width: 7em;
+    height: 5em;    
+    top: 5vh;
+    left: 60vw;   
+}
+#cameraunobtn{
+    position: absolute;
+    width: 7em;
+    height: 5em;    
+    top: 14vh;
+    left: 20vw; 
+}
+#cameraduebtn{
+    position: absolute;
+    width: 7em;
+    height: 5em;    
+    top: 45.7em;
+    left: 75vw; 
+}
+
+.lightsoff{
+    background-color: rgba(49, 45, 45, 0.733);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.eltbutton{
+  padding: 25px 30px;
+  background-color: #050801;
+  color: #d7ff36;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+
+.eltbuttonactive{
+    background: #d4ff00;
+    color: #050801;
+    box-shadow: 0 0 5px #c6d800,
+                0 0 25px #8d9c00,
+                0 0 50px #ddff00,
+                0 0 200px #000000;
+}
+.button-main {
+    align-items: center;
+    appearance: none;
+    
+    background-color: initial;
+    background-image: none;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    flex-direction: row;
+    flex-shrink: 0;  
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0;
+    min-height: 64px;
+    outline: none;
+    overflow: visible;
+    padding: 19px 26px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    user-select: none;
+   
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: auto;
+    word-break: keep-all;
+    z-index: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-main {
+      padding: 19px 52px;
+    }
+  }
+  
+  .button-main:before,
+  .button-main:after {
+    border-radius: 80px;
+  }
+  
+  .button-main:before {
+    background-image: linear-gradient(92.83deg, #11001f 0, #6002b9 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+  }
+  
+  .button-main:after {
+    background-color: initial;
+    background-image: linear-gradient(#0a0056 0, #000000 100%);
+    bottom: 4px;
+    content: "";
+    display: block;
+    left: 4px;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    transition: all 0.2s ease-out;
+    z-index: -1;
+  }  
+
+  
+  .button-main:hover:not(:disabled):after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition-timing-function: ease-in;
+    opacity: 0;
+  } 
+  body > a{
+    position: absolute;
+    top: 45%;
+    right: 2vw;
+  }
